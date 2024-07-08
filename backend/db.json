@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Tshegofatso Motsuenyane",
+      "email": "tmotsuenyane@123.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": "2",
+      "name": "Jane Danborough",
+      "email": "janethedan@123.com",
+      "phone": "1-572-999-0000"
+    }
+  ],
+  "booking": [
+    {
+      "listingId": 1,
+      "startDate": "2024-02-20",
+      "endDate": "2024-02-23",
+      "userId": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    }
+  ]
+}

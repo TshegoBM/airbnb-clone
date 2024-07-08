@@ -1,0 +1,47 @@
+# GET ALL USERS
+GET http://localhost:5100/users
+###
+
+#GET A SINGLE USER
+GET http://localhost:5100/users/1
+###
+
+#REGISTER A USER
+POST http://localhost:5100/register
+Content-Type: application/json
+{
+     "email": "olivier@mail.com",
+     "password": "bestP@asseord"
+}
+###
+
+#SIGN IN 
+
+POST http://localhost:5100/login
+Content-Type: application/json
+
+{
+    "email": "olivier@mail.com",
+     "password": "bestP@asseord"
+}
+###
+
+#GET ALL BOOKINGS
+http://localhost:5100/bookings/
+###
+
+#GET ALL BOOKINGS FOR A USER
+
+http://localhost:5100/users/1/bookings
+###
+
+http://localhost:5100/listings
+###
+
+# POST http://localhost:5100/posts
+# content-type: application/json
+
+# {
+#     "title": "airbnb clone",
+#     "author": "tshego"
+# }
