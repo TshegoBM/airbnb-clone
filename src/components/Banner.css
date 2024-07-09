@@ -39,7 +39,7 @@
   margin-top: 10px;
   }
   
-  .banner_info > button {
+  .banner_link > button {
     background-color: #ff7779;
     color: white;
     margin-top: 20px;
@@ -47,7 +47,7 @@
     text-transform: inherit;
   }
   
-  .banner_info > button:hover {
+  .banner_link >button:hover {
     background-color: white;
     color:  #ff7779;
   }
